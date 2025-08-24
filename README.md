@@ -1,4 +1,3 @@
----
 
 # 🚀 PrepAI – Data Preprocessing & ML Visualization Suite
 
@@ -10,7 +9,6 @@
 
 PrepAI is built to **accelerate the ML pipeline**, reduce repetitive work, and provide **ready-to-use insights** for Data Scientists, Analysts, and ML Engineers.
 
----
 
 ## ✨ Key Features
 
