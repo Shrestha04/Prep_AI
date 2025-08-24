@@ -1,5 +1,5 @@
 
-# 🚀 PrepAI – Your Smart Data Cleaning & Preprocessing Assistant
+## 🚀 PrepAI – Your Smart Data Cleaning & Preprocessing Assistant
 
 **PrepAI** is an AI-powered toolkit that acts as a:
 
@@ -9,11 +9,13 @@
 
 PrepAI is built to **accelerate the ML pipeline**, reduce repetitive work, and provide **ready-to-use insights** for Data Scientists, Analysts, and ML Engineers.
 
+---
 
 ## ✨ Key Features
 
 ### 🧹 1. Data Preprocessing Assistant
 It is an intelligent web-based tool designed to automate and simplify the preprocessing of datasets for machine learning projects. Built using Python (Flask), Bootstrap, and pandas, it helps users upload datasets (CSV/Excel), automatically detect data issues, and perform cleaning steps like handling missing values, encoding, scaling, and more — all with just a few clicks.
+
 
 * 📁 Upload CSV/Excel datasets
 * 🔍 Intelligent missing value handling (mean/median/mode/imputation)
@@ -24,9 +26,11 @@ It is an intelligent web-based tool designed to automate and simplify the prepro
 * 📥 Download preprocessed dataset
 * 💡 Clean UI built with Bootstrap
 * 🔄 Realtime feedback on preprocessing steps
+  
 
 ### 📊 2. ML Visualizer
 A comprehensive machine learning visualizer and educational platform. As a learner, I found myself constantly scrolling through different sites for ML tools. ML Visualizer consolidates everything in one place, saving time and making it easier for you to visualize, learn, and experiment with machine learning algorithms.
+
 
 * **Exploratory Data Analysis (EDA)**
 
