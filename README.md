@@ -1,5 +1,5 @@
 
-# 🚀 PrepAI – Data Preprocessing & ML Visualization Suite
+# 🚀 PrepAI – Your Smart Data Cleaning & Preprocessing Assistant
 
 **PrepAI** is an AI-powered toolkit that acts as a:
 
@@ -13,31 +13,29 @@ PrepAI is built to **accelerate the ML pipeline**, reduce repetitive work, and p
 ## ✨ Key Features
 
 ### 🧹 1. Data Preprocessing Assistant
+It is an intelligent web-based tool designed to automate and simplify the preprocessing of datasets for machine learning projects. Built using Python (Flask), Bootstrap, and pandas, it helps users upload datasets (CSV/Excel), automatically detect data issues, and perform cleaning steps like handling missing values, encoding, scaling, and more — all with just a few clicks.
 
-* Handle missing values with configurable strategies (mean/median/mode imputation, removal).
-* Detect & treat outliers (Z-score, IQR methods).
-* Encode categorical features (One-Hot, Label, Target encoding).
-* Normalize & scale features (StandardScaler, MinMaxScaler, RobustScaler).
-* Train-test split automation with stratification support.
-* Automated data profiling (data types, null counts, distributions).
+* 📁 Upload CSV/Excel datasets
+* 🔍 Intelligent missing value handling (mean/median/mode/imputation)
+* 📏 Feature scaling (StandardScaler, MinMaxScaler)
+* 🎯 Label encoding and one-hot encoding
+* 🧼 Outlier detection and handling (Z-score/IQR based)
+* 📊 Data summary with stats & correlation matrix
+* 📥 Download preprocessed dataset
+* 💡 Clean UI built with Bootstrap
+* 🔄 Realtime feedback on preprocessing steps
 
 ### 📊 2. ML Visualizer
+A comprehensive machine learning visualizer and educational platform. As a learner, I found myself constantly scrolling through different sites for ML tools. ML Visualizer consolidates everything in one place, saving time and making it easier for you to visualize, learn, and experiment with machine learning algorithms.
 
 * **Exploratory Data Analysis (EDA)**
 
-  * Histograms, boxplots.
-  * Scatter plots with regression lines.
-  * Correlation heatmaps.
 * **Model Evaluation**
 
   * Confusion Matrix (heatmap).
   * ROC & Precision-Recall curves.
   * Feature Importance plots (Tree-based, SHAP).
   * Learning curves for training/validation performance.
-* **Explainability**
-
-  * SHAP values visualization.
-  * Partial Dependence Plots.
 
 ### 📈 3. DataVista Dashboard
 * Interactive dashboard with KPIs.
@@ -61,6 +59,7 @@ PrepAI is built to **accelerate the ML pipeline**, reduce repetitive work, and p
 
 **Other Tools**
 
+* Frontend: HTML5, CSS3, Bootstrap 5, JavaScript
 * Render – Deployment
 
 ---
@@ -107,14 +106,16 @@ python app.py
 ### 2️⃣ Preprocess
 
 * Choose options (missing value strategy, encoding, scaling).
+* Get summary of steps
 * Download **cleaned dataset**.
 
 ### 3️⃣ Visualize ML Models
-
-* Train model → Generate plots: ROC, Confusion Matrix, SHAP plots.
+* Upload `.csv` or `.xlsx` file.
+* Train model based on your target variable → Generate plots: ROC, Confusion Matrix, Feature importance and SHAP plots.
 
 ### 4️⃣ Dashboard Insights
 
+* Upload `.csv` or `.xlsx` file.
 * View **DataVista** dashboard.
 * Export results for sharing.
 
@@ -142,16 +143,6 @@ python app.py
 * DataVista Dashboard
 <img width="1862" height="920" alt="Screenshot 2025-08-24 230445" src="https://github.com/user-attachments/assets/a87c11aa-dc03-4d89-8494-90102d3f92ca" />
 <img width="2592" height="1680" alt="DataVista_Dashboard" src="https://github.com/user-attachments/assets/8f80398f-a5bf-4f37-bd92-4cd2f570d459" />
-
----
-
-## 🌟 Future Enhancements
-
-* ✅ AutoML pipeline integration.
-* ✅ NLP text preprocessing module.
-* ✅ Cloud-based dataset & report storage.
-* ✅ Interactive drag-and-drop dataset uploader.
-* ✅ Collaboration features for teams.
 
 ---
 
